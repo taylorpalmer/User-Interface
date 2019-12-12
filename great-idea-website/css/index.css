@@ -64,71 +64,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.Top nav {
-	display: inline-block;
+body {
+	margin-left: 5%;
+	margin-right: 5%;
 }
-a {
-	width: 10%;
+.Top {
+	display: flex;
+	justify-content: space-around;
+}
+.Top nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
 	margin: 10px;
 }
 .logo {
-	display: inline-block;
-	margin-left: 5%;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.Title {
+	display: flex;
+}
+.Left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 h1 {
 	font-size: 83px;
 	text-align: center;
+	margin-top: 20px;
 }
-.Title nav{
+.Title .Left nav{
 	border: solid black;
 	font-size: 20px;
 	text-align: center;
-	margin: auto;
 	width: 50%;
 }
-.Title {
-	display: inline-block;
-	width: 39%;
-	margin: 5%;
-}
 .Round {
-	display: inline-block;
-	width: 39%;
-	margin: 5%;
+	width: 45%;
+	box-sizing: border-box;
+	padding: 3%;
 }
-.Features {
-	display: inline-block;
-	width: 49%;
-}
-.About {
-	display: inline-block;
-	width: 49%;
+.Above_Image {
+	display: flex;
 }
 .middle-img {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.Services{
-	display: inline-block;
-	width: 33%;
-}
-.Product {
-	display: inline-block;
-	width: 33%;
-}
-.Vision {
-	display: inline-block;
-	width: 33%;
+.Below_Image {
+	display: flex;
 }
 footer {
+	border: solid black;
 	margin-top: 40px;
 	margin-bottom: 40px;
-}
-.Contact {
-	text-align: left;
-}
-address {
-	width: 20%;
 }
 .Legal{
 	text-align: center;
